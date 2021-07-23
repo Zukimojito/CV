@@ -1,0 +1,159 @@
+
+h1
+{
+	color : white;
+	font-size : 3em;
+	text-align : center;
+	margin: 5% auto;
+}
+
+
+h2
+{
+	background-color: #D8D8D8;
+	display: inline-block;
+	margin : 0;
+
+}
+
+h3
+{
+	color : white;
+	font-size : 1.5em;
+	text-align: center;
+	margin: 3%;
+}
+
+h4
+{
+
+	color : white;
+	font-size : 1.6em;
+	text-align : center;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	background-color : #1599a8;
+}
+
+.MainBody{
+
+	max-width: 100%;
+	margin : auto;
+
+}
+
+.icon
+{
+	margin-left : 5%;
+	width: 10%;
+	min-width: 28px;
+	height: 10%;
+	min-height: 28px;
+}
+
+.info
+{
+	color : white;
+	margin-left: 20px;
+	font-size: 1.10em;
+
+}
+
+.infos
+{
+	display: flex;
+	align-items: center;	/*mettre en centre verticalement*/
+	margin: 2% auto;		
+	
+}
+
+.langue
+{
+	color : white;
+	margin: 1% 10% 1% 10%;
+	text-align: left;
+	font-size: 1.25em;
+}
+.hobby
+{
+	color : white;
+	margin : 3% 10% 3% 10%;
+	text-align: left;
+	font-size: 1.15em;
+}
+
+.underline
+{
+	text-decoration: underline;
+}
+
+.centre
+{
+	text-align : center;
+}
+
+.gras
+{
+	font-weight: bold;
+}
+
+
+body
+{
+	background-image: url("image/greyzz.png");
+	display : flex;
+	justify-content: center;
+	
+}
+
+
+section
+{
+	display : block;
+	vertical-align: top;
+	margin-right: 1%;
+}
+
+a{
+	color: white;
+}
+
+a:hover
+{
+	color : skyblue;
+}
+
+ul
+{
+	border : #1599a8 2px solid;
+	box-shadow: 5px 5px 0px black
+}
+
+#liseret,#contenue
+{
+	display : inline-block;
+	vertical-align: top;
+}
+
+#liseret
+{
+
+	background-image: url('image/lodyas.png');
+	width: 15%;
+	min-width: 15%;
+	max-width: 20%;
+    margin-right: 3%;
+    height: 925px;
+    border-radius: 50px;
+    
+}
+
+#pp
+{
+	
+	margin : 0 auto;
+	width : 50%;
+
+
+}
+
