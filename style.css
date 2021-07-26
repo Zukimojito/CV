@@ -15,7 +15,8 @@ main
 	height : 0;
 	width : 0;
 	border-top : 150px solid #138C9A;
-	border-right : 275px solid transparent;
+	border-right : 270px solid transparent;
+	margin-bottom: -100px;
 }
 
 
@@ -23,16 +24,29 @@ main
 	height : 0;
 	width : 0;
 	border-bottom : 150px solid #C1C1C1;
-	border-left : 275px solid transparent;
+	border-left : 250px solid transparent;
+	margin-left: 20px;
+
 }
 
+.photo
+{
+	position : absolute;
+	top: 50px ;
+	margin-left: 3.5%;
+    width: 150px;
+    height: 150px;
+	overflow: hidden;
+}
 
 .section_left
 {
 
-	width: 275px;
+	width: 250px;
     height: 600px;
     color: white;
 	background-color: #C1C1C1;
-	
+	margin-left: 20px;
 }
+
+
