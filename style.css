@@ -1,12 +1,14 @@
-
+body
+{
+	font-family: "Times New Roman", Times, serif;
+}
 main
 {
 	box-shadow: 30px 0px 40px rgb(196, 196, 196), -30px 0px 40px rgb(196, 196, 196);
     margin: auto;
-
     max-width: 900px;
-    max-height: 950px;
-    /*padding: 0px 20px 20px 0px ;*/
+    /*max-height: 950px;*/
+    padding: 0px 0px 20px 0px ;
 
 
 }
@@ -16,7 +18,7 @@ main
 	width : 0;
 	border-top : 150px solid #138C9A;
 	border-right : 270px solid transparent;
-	margin-bottom: -100px;
+	
 }
 
 
@@ -32,21 +34,87 @@ main
 .photo
 {
 	position : absolute;
-	top: 50px ;
-	margin-left: 3.5%;
-    width: 150px;
-    height: 150px;
+	top: 40px ;
+	margin-left: 2.5%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 	overflow: hidden;
 }
 
 .section_left
 {
-
 	width: 250px;
-    height: 600px;
+    height: 700px;
     color: white;
 	background-color: #C1C1C1;
 	margin-left: 20px;
 }
 
+
+header
+{
+	background-color: black;
+	height: 25px;
+	margin-bottom: 10px;
+}
+
+
+h2
+{
+    text-align: center;
+  	color : #345B94;
+  	font-size : 35px
+}
+
+h4
+{
+	margin : -5px 0 -5px 0;
+	background-color: #1599a8;
+	height: 50px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.9em;
+}
+
+
+.description
+{
+	padding-top: 10%;
+}
+
+.post
+{
+	color : #345B94;
+	font-size : 19px;
+	text-align: center;
+	margin-top: -20px;
+}
+
+.infos
+{	
+	display: flex;
+	color : black;
+	margin : -10px 0 -15px 0;
+}
+
+.icon
+{
+	width: 35px;
+	height : 35px;
+	margin : 0 8px 0 8px;
+}
+.put_center
+{
+	display: flex;
+	align-items: center;
+}
+
+.langue
+{
+	color: black;
+	margin-left: 15px;
+}
 
