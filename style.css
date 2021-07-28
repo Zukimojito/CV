@@ -12,6 +12,34 @@ main
 
 
 }
+
+header
+{
+	background-color: black;
+	height: 25px;
+	margin-bottom: 10px;
+}
+
+
+h2
+{
+    text-align: center;
+  	color : #345B94;
+  	font-size : 35px
+}
+
+h4
+{
+	margin : -5px 0 -5px 0;
+	background-color: #1599a8;
+	height: 50px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.4em;
+
+}
 .triangle-green{
 	display : inline-block;
 	height : 0;
@@ -45,40 +73,11 @@ main
 .section_left
 {
 	width: 250px;
-    height: 700px;
+    height: 775px;
     color: white;
 	background-color: #C1C1C1;
 	margin-left: 20px;
 }
-
-
-header
-{
-	background-color: black;
-	height: 25px;
-	margin-bottom: 10px;
-}
-
-
-h2
-{
-    text-align: center;
-  	color : #345B94;
-  	font-size : 35px
-}
-
-h4
-{
-	margin : -5px 0 -5px 0;
-	background-color: #1599a8;
-	height: 50px;
-	color: white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 1.9em;
-}
-
 
 .description
 {
@@ -118,3 +117,8 @@ h4
 	margin-left: 15px;
 }
 
+.hobby
+{
+	color : black;
+	margin-left: 15px;
+}
