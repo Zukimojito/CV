@@ -1,1 +1,1 @@
-# My CV Only with htlm and css
+# My CV only with htlm and css
