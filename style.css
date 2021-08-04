@@ -50,18 +50,82 @@ h5
 {	
 	background-color: #C1C1C1;
 	display: flex;
-	height : 50px;
+	height : 40px;
 	justify-content: center;
 	align-items: center;
 	font-size: 1.4rem;
 	width: 40%;
+	margin-bottom: 10px;
 }
 
-.banner
+.year
+{
+	background-color: black;
+	color: white;
+	width: 100px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.banner_gray
 {
 	display: flex;
 	justify-content: center;
 }
+
+.dashed_carrer
+{
+	border : gray 3px dashed;
+	margin-bottom: 10px;
+}
+
+.formation
+{
+	display : flex;
+}
+
+.arrow_bot
+{
+	background: black;
+	height: 25px;
+	width: 2px;
+	position : relative;
+	transition : all 0.2s;
+	margin-right : 55px;
+}
+
+.arrow_bot::before,.arrow_bot::after
+{
+	position: absolute;
+	content: "";
+	background: black;
+	height: 2px;
+	width: 50px;
+	bottom: 0;
+}
+
+.text_top
+{
+	display: flex;
+	justify-content: flex-end;
+}
+
+/*
+.arrow_bot::before
+{
+	transform: rotate(45deg);
+	transform-origin : right;
+}
+
+.arrow_bot::after
+{
+	transform: rotate(-45deg);
+	transform-origin : right;
+}
+*/
 
 .triangle-green{
 	display : inline-block;
@@ -69,7 +133,6 @@ h5
 	width : 0;
 	border-top : 150px solid #138C9A;
 	border-right : 270px solid transparent;
-	
 }
 
 .triangle-gray{					/*triangle gray background colors*/
