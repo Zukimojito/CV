@@ -106,7 +106,7 @@ h5
 	position: absolute;
 	content: "";
 	background: black;
-	height: 2px;
+	height: 3px;
 	width: 50px;
 	bottom: 0;
 }
@@ -246,4 +246,15 @@ hr.light
 	border-top: 2px solid white;
 	width: 90%;
 	margin-bottom: -10px;
+}
+
+@media screen and (max-width: 900px)
+{
+	.section_left
+	{
+		margin-bottom: 175px;
+	}
+	.section_right{
+		float : left;
+	}
 }
