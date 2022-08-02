@@ -1,206 +1,211 @@
-body
-{
-	font-family: "Times New Roman", Times, serif;
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-main
-{
-	box-shadow: 30px 0px 40px rgb(196, 196, 196), -30px 0px 40px rgb(196, 196, 196);
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+
+.main-container {
+    box-shadow: 30px 0px 40px rgb(196, 196, 196), -30px 0px 40px rgb(196, 196, 196);
     max-width: 900px;
-    margin: 0 auto 0 ;
-    /*max-height: 950px;*/
-    padding: 0px 0px 20px 0px ;
+    margin: 5px auto;
+    padding: 0px 0px 20px 0px;
 }
 
-.top-barre{
-    position : absolute;
-    background-color: black;
+/* Header */
+header {
+    position: relative;
+}
+
+.top-barre-black {
     width: 100%;
-    max-width: 900px;
-    height : 25px;
-
+    background: black;
+    height: 25px;
 }
 
-.triangle-green{
+.triangle-green {
     position: absolute;
-	height : 0;
-	width : 0;
-	border-top : 150px solid #138C9A;
-	border-right : 270px solid transparent;
+    width: 270px;
+    border-top: 150px solid #138C9A;
+    border-right: 270px solid transparent;
 }
 
-.photo
-{
-	position : absolute;
-    z-index: 1;
-	top: 40px ;
-	margin-left: 2.5%;
+.photo {
+    position: absolute;
     width: 200px;
     height: 200px;
-    border-radius: 50%;
-	overflow: hidden;
+    margin: 0 35px;
+    z-index: 1;
 }
 
-.section-left
-{
-    display : block;
-    margin-top : 182px;
-	width: 250px;
-    color: white;
-	background-color: #C1C1C1;
-
-	margin-left: 20px;
-
-}
-.triangle-gray{					/*triangle gray background colors*/
-
-    position : absolute;
-    top : 40px;
-	border-bottom : 150px solid #C1C1C1;
-	border-left : 250px solid transparent;
-
+.container {
+    display: flex;
+    flex-shrink: 0;
 
 }
 
-.description h2
-{
-	padding-top: 30px;
+/* partie gauche */
+
+.section-Right {
+    position: relative;
+    width: 250px;
+    height: 1000px;
+    background: #C1C1C1;
+    margin-top: 150px;
+    margin-left: 15px;
+    flex-shrink: 0;
+}
+
+.triangle-gray {
+    /*triangle gray background colors*/
+    position: absolute;
+    top: -150px;
+    border-bottom: 150px solid #C1C1C1;
+    border-left: 250px solid transparent;
+
+}
+
+.description h1 {
+    padding-top: 60px;
     text-align: center;
     color: #345B94;
     font-size: 35px;
 }
 
-.description p
-{
-	color : #345B94;
-	font-size : 19px;
-	text-align: center;
-	margin-top: -20px;
+.description p {
+    color: #345B94;
+    font-size: 19px;
+    text-align: center;
 }
 
-.info h4{
-    margin : -5px 0 -5px 0;
-	background-color: #1599a8;
-	height: 50px;
-	color: white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 1.4em;
+.infos h2 {
+    background-color: #1599a8;
+    height: 50px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 15px;
+    font-size: 23px;
 }
 
-.info img{
-    padding: 10px;
+.infos img {
     width: 35px;
-	height : 35px;
-
+    height: 35px;
 }
 
-.info p {
-
-    color: black;
-
-}
-
-.info-box{
+.info-box {
     display: flex;
     align-items: center;
-}
-
-.langue
-{
-
-	margin-left: 15px;
-}
-
-.hobby{
-    margin-left: 15px;
-}
-
-/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-
-.section-right{
     padding: 10px;
-    margin: 15px;
-    width: 560px;
 }
 
-.formation-content{
-	border : gray 2px dashed;
-    padding : 2px;
+.info-box p {
+    margin: 0 10px;
 }
 
-.section-right h5{
-    margin-top : 10px;
+.info-box a {
+    color: darkblue;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.info-box a:hover {
+    text-decoration: underline;
+}
+
+.langue p {
+    padding: 10px;
+}
+
+.hobby p {
+    padding: 10px;
+}
+
+/* Partie droite */
+
+.section-Left {
+    width: 600px;
+    min-width: 200px;
+    margin: 0 auto;
+}
+
+.section-Left h3 {
+    margin-top: 10px;
     margin-bottom: 5px;
     text-align: center;
     font-size: 24px;
     background-color: #C1C1C1;
     width: 100%;
-    padding : 3px;
+    padding: 3px;
+    border-radius: 5px;
 }
-.formation-year {
-    background-color: black;
+
+.formation-content {
+    border: gray 2px dashed;
+    padding: 2px;
+}
+
+.formation-year p {
+    background-color: #138C9A;
     color: white;
-    font-size: 16px;
-    padding : 5px;
-    margin : 2px;
-    width : 70px;
+    font-size: 15px;
+    padding: 5px;
+    margin: 2px;
+    width: 90px;
+    text-align: center;
+    position: relative;
 }
 
-.arrow_bot
-{
-	background: black;
-	height: 25px;
-	width: 3px;
-	position : relative;
-	transition : all 0.2s;
-	margin-right : 55px;
+.flex-formation {
+    display: flex;
+}
+
+
+.arrow_bot {
+    background: black;
+    height: 20px;
+    width: 3px;
+    position: relative;
+    transition: all 0.2s;
+    margin-right: 55px;
     left: 2px;
-    top : -10px;
-    
+    top: -2px;
+
 }
 
-.arrow_bot::before,.arrow_bot::after
-{
-	position: absolute;
-	content: "";
-	background: black;
-	height: 3px;
-	width: 50px;
-	bottom: 0;
-    
+.arrow_bot::before,
+.arrow_bot::after {
+    position: absolute;
+    content: "";
+    background: darkblue;
+    height: 3px;
+    width: 50px;
+    bottom: 0;
 }
 
-.flex-info{
-    display: flex;
-}
-.column-box{
-    display: flex;
-    flex-direction: column;
+.experience p {
+    padding: 5px;
 }
 
-/* //// //////////////////////////////////////////useless */
-.experience
-{
-	display : flex;
-	align-items: flex-start;
-	flex-flow : column wrap;
+.projet p {
+    padding: 5px;
 }
 
-.projet
-{
-	display : flex;
-	align-items: flex-start;
-	flex-flow : column wrap;
+.projet a {
+    text-decoration: none;
 }
 
-.competence
-{
-	display: flex;
-	align-items: flex-start;
-	flex-flow: column wrap;
+.competence {
+    padding: 10px;
+}
+
+.competence li {
+    list-style-type: none;
+}
+
+@media screen and (max-width : 700px) {
+    .container {
+        flex-direction: column;
+    }
 }
