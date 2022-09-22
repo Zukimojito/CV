@@ -6,6 +6,7 @@
     margin: 0;
 }
 
+
 body p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
@@ -15,6 +16,10 @@ body p {
     max-width: 900px;
     margin: 0px auto;
     padding: 0px 0px 20px 0px;
+    /* Overflow pour que le body ne wrap,shrink pas !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    overflow: hidden;
+
+
 }
 
 /* Header */
@@ -40,6 +45,8 @@ header {
     width: 200px;
     height: 200px;
     margin: 0 35px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
     z-index: 1;
 }
 
@@ -179,6 +186,7 @@ header {
     left: 2px;
     top: -2px;
 
+
 }
 
 
@@ -189,6 +197,7 @@ header {
     height: 2px;
     width: 50px;
     bottom: 0;
+
 
 }
 
