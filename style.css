@@ -52,10 +52,8 @@ header {
 }
 
 .photo img {
-
-    width: 175px;
-    border-radius: 50%;
-
+    width: 150px;
+    border-radius: 10px;
 }
 
 .container {
