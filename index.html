@@ -47,456 +47,508 @@
     </div>
   </aside>
 
-  <!-- Conteneur principal du CV conforme aux standards A4 et ATS -->
-  <main class="cv-page" id="cv-content">
-    
-    <!-- EN-TÊTE / HEADER SÉMANTIQUE ATS -->
-    <header class="cv-header">
-      <div class="header-photo-wrapper">
-        <img src="./image/photo.jpg" alt="Photo d'identité de Jiongjiong LIN" class="header-photo" onerror="this.src='./image/ppgrand.png'; this.onerror=null;" />
-      </div>
-
-      <div class="header-main">
-        <div class="header-title-group">
-          <h1 class="candidate-name">Jiongjiong LIN</h1>
-          <h2 class="candidate-role">Développeur Full Stack & Architecte Logiciel</h2>
-        </div>
-
-        <p class="candidate-tagline">
-          Diplômé Master (Bac+5 - ETNA) • Conception d'applications web scalables & orientées performance
-        </p>
-
-        <!-- Coordonnées standardisées pour robots ATS -->
-        <address class="contact-grid">
-          <div class="contact-item">
-            <svg class="contact-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-            </svg>
-            <a href="tel:0652074546" class="contact-link">06 52 07 45 46</a>
-          </div>
-
-          <div class="contact-item">
-            <svg class="contact-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-              <polyline points="22,6 12,13 2,6"></polyline>
-            </svg>
-            <a href="mailto:lin98j@gmail.com" class="contact-link" id="email-text">lin98j@gmail.com</a>
-          </div>
-
-          <div class="contact-item">
-            <svg class="contact-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-              <circle cx="12" cy="10" r="3"></circle>
-            </svg>
-            <span>Paris & Île-de-France</span>
-          </div>
-
-          <div class="contact-item">
-            <svg class="contact-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-            </svg>
-            <a href="https://github.com/Zukimojito" target="_blank" rel="noopener noreferrer" class="contact-link">github.com/Zukimojito</a>
-          </div>
-
-          <div class="contact-item">
-            <svg class="contact-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
-              <circle cx="12" cy="12" r="10"></circle>
-              <line x1="2" y1="12" x2="22" y2="12"></line>
-              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-            </svg>
-            <a href="https://zukimojito.github.io/Portfolio/" target="_blank" rel="noopener noreferrer" class="contact-link">Portfolio en ligne</a>
-          </div>
-        </address>
-      </div>
-    </header>
-
-    <!-- ACCROCHE / PROFIL PROFESSIONNEL (ATS SUMMARY) -->
-    <section class="cv-section section-summary" aria-labelledby="sec-profile">
-      <h2 id="sec-profile" class="section-title">
-        <span class="section-icon">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-            <circle cx="12" cy="7" r="4"></circle>
-          </svg>
-        </span>
-        Profil Professionnel
-      </h2>
-      <p class="summary-text">
-        <strong>Développeur Full Stack</strong> diplômé d'un <strong>Master (Bac+5 - ETNA)</strong> en Architecture Logicielle et Développement d'Applications. Passionné par la conception de solutions logicielles robustes et performantes avec l'écosystème <strong>JavaScript/TypeScript (React, Node.js)</strong>, <strong>Python</strong> et les architectures modernes. Doté d'une double compétence technique et sensibilité graphique (3D/Game Design), trilingue <strong>Français, Chinois (langue maternelle) et Anglais technique</strong>, je suis motivé par les défis techniques, le clean code et le travail en équipe agile.
-      </p>
-    </section>
-
-    <!-- CORPS PRINCIPAL EN 2 COLONNES ATS (FLUIDE & SÉMANTIQUE) -->
-    <div class="cv-body-grid">
-      
-      <!-- COLONNE GAUCHE : EXPÉRIENCES & PROJETS & FORMATIONS -->
-      <div class="cv-column-main">
-        
-        <!-- EXPÉRIENCES PROFESSIONNELLES -->
-        <section class="cv-section" aria-labelledby="sec-experience">
-          <h2 id="sec-experience" class="section-title">
-            <span class="section-icon">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-              </svg>
-            </span>
-            Expériences Professionnelles
-          </h2>
-
-          <div class="timeline">
-            <!-- Expérience 1 -->
-            <article class="timeline-item">
-              <div class="timeline-header">
-                <div>
-                  <h3 class="entry-title">Développeur Web (Stage)</h3>
-                  <div class="entry-company">Canopia Nature • Paris</div>
-                </div>
-                <time class="entry-date">Janvier 2020 – Mars 2020</time>
-              </div>
-              <ul class="entry-bullets">
-                <li><strong>Refonte & maintenance web :</strong> intégration de nouvelles fonctionnalités, mise en valeur des gammes de produits et gestion du catalogue e-commerce.</li>
-                <li><strong>Optimisation SEO & Performance :</strong> restructuration sémantique des balises, optimisation des métadonnées et amélioration des Core Web Vitals (temps de chargement).</li>
-                <li><strong>Création de contenu promotionnel :</strong> intégration des campagnes commerciales et rédaction de pages optimisées pour le référencement naturel.</li>
-              </ul>
-              <div class="tag-list">
-                <span class="tag">WordPress</span>
-                <span class="tag">PHP</span>
-                <span class="tag">JavaScript</span>
-                <span class="tag">HTML5 / CSS3</span>
-                <span class="tag">SEO</span>
-              </div>
-            </article>
-
-            <!-- Expérience 2 -->
-            <article class="timeline-item">
-              <div class="timeline-header">
-                <div>
-                  <h3 class="entry-title">Technicien Support & Systèmes Informatiques</h3>
-                  <div class="entry-company">ASN Shop & XXL Info • Paris 12e</div>
-                </div>
-                <time class="entry-date">Mai 2018 – Août 2018</time>
-              </div>
-              <ul class="entry-bullets">
-                <li><strong>Diagnostic & maintenance :</strong> identification rapide des pannes matérielles (hardware) et logicielles pour particuliers et entreprises.</li>
-                <li><strong>Déploiement d'environnements :</strong> installation et configuration complète de systèmes d'exploitation (Windows, distributions Linux).</li>
-                <li><strong>Support & relation client :</strong> écoute des besoins techniques, conseils personnalisés et gestion des stocks de pièces détachées.</li>
-              </ul>
-              <div class="tag-list">
-                <span class="tag">Windows 10</span>
-                <span class="tag">Linux</span>
-                <span class="tag">Dépannage Hardware</span>
-                <span class="tag">Réseaux</span>
-              </div>
-            </article>
-          </div>
-        </section>
-
-        <!-- PROJETS TECHNIQUES SIGNIFICATIFS -->
-        <section class="cv-section" aria-labelledby="sec-projects">
-          <h2 id="sec-projects" class="section-title">
-            <span class="section-icon">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-              </svg>
-            </span>
-            Projets Techniques Réalisés
-          </h2>
-
-          <div class="projects-grid">
-            <!-- Projet 1 : React -->
-            <article class="project-card">
-              <div class="project-header">
-                <h3 class="entry-title">Écosystème React & Applications Web</h3>
-                <a href="https://github.com/Zukimojito/Projet-react" target="_blank" rel="noopener noreferrer" class="project-link" title="Consulter sur GitHub">
-                  <span>github.com/Zukimojito/Projet-react</span>
-                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                </a>
-              </div>
-              <p class="project-description">
-                Développement d'une suite de Single Page Applications (SPA) modulaires : Blog interactif, galerie d'images avec filtrage instantané et carrousels responsifs.
-              </p>
-              <ul class="entry-bullets">
-                <li>Gestion d'état global avec <strong>Redux Toolkit</strong> et l'API <strong>Context</strong>.</li>
-                <li>Routage déclaratif dynamique avec <strong>React Router</strong> et hooks personnalisés.</li>
-              </ul>
-              <div class="tag-list">
-                <span class="tag">React.js</span>
-                <span class="tag">JavaScript (ES6+)</span>
-                <span class="tag">Redux</span>
-                <span class="tag">Hooks</span>
-                <span class="tag">REST API</span>
-              </div>
-            </article>
-
-            <!-- Projet 2 : Pygame -->
-            <article class="project-card">
-              <div class="project-header">
-                <h3 class="entry-title">Swallowed Star — Jeu Vidéo 2D (Python)</h3>
-                <span class="entry-badge">Projet Personnel</span>
-              </div>
-              <p class="project-description">
-                Conception complète d'un jeu vidéo d'action 2D avec programmation orientée objet (POO).
-              </p>
-              <ul class="entry-bullets">
-                <li>Boucle de gameplay temps réel cadencée à 60 FPS avec gestion fine des états du jeu.</li>
-                <li>Calcul vectoriel des collisions polygonales (sprites) et spatialisation sonore avec <code>pygame.mixer</code>.</li>
-              </ul>
-              <div class="tag-list">
-                <span class="tag">Python</span>
-                <span class="tag">Pygame</span>
-                <span class="tag">POO</span>
-                <span class="tag">Game Loop</span>
-              </div>
-            </article>
-
-            <!-- Projet 3 : Unity 3D -->
-            <article class="project-card">
-              <div class="project-header">
-                <h3 class="entry-title">AriseSquad — Jeu 3D & Game Design (Unity)</h3>
-                <span class="entry-badge">Projet Annuel ESGI</span>
-              </div>
-              <p class="project-description">
-                Création en équipe d'un prototype de jeu 3D : modélisation sous Blender, programmation des mécaniques de jeu en C# et gestion de projet sous méthodologie Agile / diagramme de Gantt.
-              </p>
-              <div class="tag-list">
-                <span class="tag">Unity 3D</span>
-                <span class="tag">C#</span>
-                <span class="tag">Blender 3D</span>
-                <span class="tag">Agile / Scrum</span>
-              </div>
-            </article>
-          </div>
-        </section>
-
-        <!-- FORMATIONS -->
-        <section class="cv-section" aria-labelledby="sec-education">
-          <h2 id="sec-education" class="section-title">
-            <span class="section-icon">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
-                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
-              </svg>
-            </span>
-            Formations & Diplômes
-          </h2>
-
-          <div class="timeline">
-            <!-- Formation 1 -->
-            <article class="timeline-item">
-              <div class="timeline-header">
-                <div>
-                  <h3 class="entry-title">Cycle Master — Architecte Logiciel et Développeur d’Application</h3>
-                  <div class="entry-company">ETNA (École des Technologies Numériques Avancées) • Ivry-sur-Seine</div>
-                </div>
-                <time class="entry-date">2022 – 2024</time>
-              </div>
-              <p class="entry-detail">Niveau 7 (Bac+5). Architectures microservices, sécurité applicative, patterns logiciels, CI/CD, méthodologies agiles.</p>
-            </article>
-
-            <!-- Formation 2 -->
-            <article class="timeline-item">
-              <div class="timeline-header">
-                <div>
-                  <h3 class="entry-title">Bachelor — Ingénierie de la 3D et des Jeux Vidéo</h3>
-                  <div class="entry-company">ESGI (École Supérieure de Génie Informatique) • Paris</div>
-                </div>
-                <time class="entry-date">2019 – 2020</time>
-              </div>
-              <p class="entry-detail">Niveau 6 (Bac+3). Programmation graphique en C#, mathématiques 3D, modélisation Blender, moteurs temps réel.</p>
-            </article>
-
-            <!-- Formation 3 -->
-            <article class="timeline-item">
-              <div class="timeline-header">
-                <div>
-                  <h3 class="entry-title">BTS Systèmes Numériques — Option Informatique & Réseaux</h3>
-                  <div class="entry-company">Lycée Le Corbusier • Aubervilliers</div>
-                </div>
-                <time class="entry-date">2017 – 2019</time>
-              </div>
-              <p class="entry-detail">Niveau 5 (Bac+2). Programmation C/C++, administration systèmes Linux/Windows, architecture réseaux TCP/IP.</p>
-            </article>
-          </div>
-        </section>
-
-      </div>
-
-      <!-- COLONNE DROITE / SIDEBAR : COMPÉTENCES, LANGUES, ATOUTS, HOBBIES -->
-      <aside class="cv-column-side" aria-label="Compétences et Informations complémentaires">
-        
-        <!-- COMPÉTENCES TECHNIQUES (Mots-clés ATS clés) -->
-        <section class="cv-section" aria-labelledby="sec-skills">
-          <h2 id="sec-skills" class="section-title">
-            <span class="section-icon">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-                <polyline points="16 18 22 12 16 6"></polyline>
-                <polyline points="8 6 2 12 8 18"></polyline>
-              </svg>
-            </span>
-            Compétences
-          </h2>
-
-          <div class="skill-category">
-            <h3 class="skill-heading">Langages</h3>
-            <div class="tag-list">
-              <span class="tag tag-highlight">JavaScript (ES6+)</span>
-              <span class="tag tag-highlight">TypeScript</span>
-              <span class="tag tag-highlight">Python</span>
-              <span class="tag">HTML5 / CSS3</span>
-              <span class="tag">C#</span>
-              <span class="tag">C / C++</span>
-              <span class="tag">PHP</span>
-              <span class="tag">SQL</span>
-              <span class="tag">Bash / Shell</span>
-            </div>
-          </div>
-
-          <div class="skill-category">
-            <h3 class="skill-heading">Frameworks & Bibliothèques</h3>
-            <div class="tag-list">
-              <span class="tag tag-highlight">React.js</span>
-              <span class="tag tag-highlight">Node.js</span>
-              <span class="tag">Redux / Context</span>
-              <span class="tag">Express</span>
-              <span class="tag">Laravel</span>
-              <span class="tag">Qt Creator</span>
-              <span class="tag">Bootstrap</span>
-              <span class="tag">Pygame</span>
-            </div>
-          </div>
-
-          <div class="skill-category">
-            <h3 class="skill-heading">Bases de Données & Cloud</h3>
-            <div class="tag-list">
-              <span class="tag">MySQL</span>
-              <span class="tag">PostgreSQL</span>
-              <span class="tag">Firebase</span>
-              <span class="tag">phpMyAdmin</span>
-              <span class="tag">REST APIs</span>
-            </div>
-          </div>
-
-          <div class="skill-category">
-            <h3 class="skill-heading">Outils & Environnements</h3>
-            <div class="tag-list">
-              <span class="tag">Git & GitHub</span>
-              <span class="tag">Linux / Debian / Ubuntu</span>
-              <span class="tag">VS Code</span>
-              <span class="tag">Windows</span>
-              <span class="tag">Docker (notions)</span>
-              <span class="tag">Wamp / XAMPP</span>
-            </div>
-          </div>
-
-          <div class="skill-category">
-            <h3 class="skill-heading">3D & Graphisme</h3>
-            <div class="tag-list">
-              <span class="tag">Unity 3D</span>
-              <span class="tag">Blender</span>
-              <span class="tag">Photoshop</span>
-            </div>
-          </div>
-        </section>
-
-        <!-- LANGUES -->
-        <section class="cv-section" aria-labelledby="sec-languages">
-          <h2 id="sec-languages" class="section-title">
-            <span class="section-icon">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"></circle>
-                <path d="M2 12h20"></path>
-                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-              </svg>
-            </span>
-            Langues
-          </h2>
-          <div class="language-list">
-            <div class="language-item">
-              <div class="language-header">
-                <span class="language-name">Chinois</span>
-                <span class="language-level">Langue maternelle</span>
-              </div>
-              <div class="progress-bar"><div class="progress-fill" style="width: 100%;"></div></div>
-            </div>
-            <div class="language-item">
-              <div class="language-header">
-                <span class="language-name">Français</span>
-                <span class="language-level">Bilingue / Courant</span>
-              </div>
-              <div class="progress-bar"><div class="progress-fill" style="width: 100%;"></div></div>
-            </div>
-            <div class="language-item">
-              <div class="language-header">
-                <span class="language-name">Anglais</span>
-                <span class="language-level">Technique & Professionnel</span>
-              </div>
-              <div class="progress-bar"><div class="progress-fill" style="width: 75%;"></div></div>
-            </div>
-          </div>
-        </section>
-
-        <!-- ATOUTS & SOFT SKILLS -->
-        <section class="cv-section" aria-labelledby="sec-softskills">
-          <h2 id="sec-softskills" class="section-title">
-            <span class="section-icon">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-              </svg>
-            </span>
-            Atouts Clés
-          </h2>
-          <ul class="soft-skills-list">
-            <li><strong>Rigueur architecturale :</strong> Clean Code, maintenabilité, modularité</li>
-            <li><strong>Sensibilité UI/UX :</strong> souci du détail graphique et ergonomie</li>
-            <li><strong>Autonomie & curiosité :</strong> veille technologique active</li>
-            <li><strong>Résolution de problèmes :</strong> logique algorithmique affinée</li>
-            <li><strong>Travail collaboratif :</strong> culture Agile / Scrum</li>
-          </ul>
-        </section>
-
-        <!-- CENTRES D'INTÉRÊT -->
-        <section class="cv-section" aria-labelledby="sec-hobbies">
-          <h2 id="sec-hobbies" class="section-title">
-            <span class="section-icon">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-              </svg>
-            </span>
-            Centres d'intérêt
-          </h2>
-          <div class="hobby-grid">
-            <div class="hobby-chip">
-              <span class="hobby-bullet">🎮</span>
-              <span><strong>Jeux Vidéo :</strong> RPG, Stratégie, FPS, Game Design</span>
-            </div>
-            <div class="hobby-chip">
-              <span class="hobby-bullet">📖</span>
-              <span><strong>Culture & Lecture :</strong> Mangas, Science-Fiction, Roman</span>
-            </div>
-            <div class="hobby-chip">
-              <span class="hobby-bullet">🏸</span>
-              <span><strong>Sports :</strong> Badminton, Jogging, Natation</span>
-            </div>
-          </div>
-        </section>
-
-      </aside>
-
-    </div>
-
-    <!-- PIED DE PAGE DISCRET ATS -->
-    <footer class="cv-footer">
-      <span>CV Jiongjiong LIN • Développeur Full Stack • Paris, France</span>
-      <span>Disponible immédiatement</span>
-    </footer>
-
+  <!-- Conteneur principal du CV généré dynamiquement -->
+  <main class="cv-page" id="cv-content" aria-label="Contenu du CV">
+    <!-- Le contenu est généré automatiquement à partir de l'objet cvData ci-dessous -->
   </main>
 
-  <!-- Script interactif (copie email, toast de confirmation) -->
+  <!-- ====================================================================
+       DONNÉES DU CV & MOTEUR DE RENDU
+       Modifiez simplement l'objet cvData pour mettre à jour votre CV !
+       ==================================================================== -->
   <script>
+    /**
+     * OBJET CENTRAL DES DONNÉES DU CV
+     * Vous pouvez modifier n'importe quel texte ou ajouter des éléments ici.
+     */
+    const cvData = {
+      profile: {
+        name: "Jiongjiong LIN",
+        role: "Développeur Full Stack & Architecte Logiciel",
+        tagline: "Diplômé Master (Bac+5 - ETNA) • Conception d'applications web scalables & orientées performance",
+        photo: "./image/photo.jpg",
+        photoFallback: "./image/ppgrand.png",
+        availability: "Disponible immédiatement",
+        location: "Paris, France"
+      },
+
+      contact: {
+        phone: "06 52 07 45 46",
+        phoneLink: "tel:0652074546",
+        email: "lin98j@gmail.com",
+        city: "Paris & Île-de-France",
+        githubUrl: "https://github.com/Zukimojito",
+        githubLabel: "github.com/Zukimojito",
+        portfolioUrl: "https://zukimojito.github.io/Portfolio/",
+        portfolioLabel: "Portfolio en ligne"
+      },
+
+      summary: `<strong>Développeur Full Stack</strong> diplômé d'un <strong>Master (Bac+5 - ETNA)</strong> en Architecture Logicielle et Développement d'Applications. Passionné par la conception de solutions logicielles robustes et performantes avec l'écosystème <strong>JavaScript/TypeScript (React, Node.js)</strong>, <strong>Python</strong> et les architectures modernes. Doté d'une double compétence technique et sensibilité graphique (3D/Game Design), trilingue <strong>Français, Chinois (langue maternelle) et Anglais technique</strong>, je suis motivé par les défis techniques, le clean code et le travail en équipe agile.`,
+
+      experiences: [
+        {
+          title: "Développeur Web (Stage)",
+          company: "Canopia Nature • Paris",
+          date: "Janvier 2020 – Mars 2020",
+          bullets: [
+            "<strong>Refonte & maintenance web :</strong> intégration de nouvelles fonctionnalités, mise en valeur des gammes de produits et gestion du catalogue e-commerce.",
+            "<strong>Optimisation SEO & Performance :</strong> restructuration sémantique des balises, optimisation des métadonnées et amélioration des Core Web Vitals (temps de chargement).",
+            "<strong>Création de contenu promotionnel :</strong> intégration des campagnes commerciales et rédaction de pages optimisées pour le référencement naturel."
+          ],
+          tags: ["WordPress", "PHP", "JavaScript", "HTML5 / CSS3", "SEO"]
+        },
+        {
+          title: "Technicien Support & Systèmes Informatiques",
+          company: "ASN Shop & XXL Info • Paris 12e",
+          date: "Mai 2018 – Août 2018",
+          bullets: [
+            "<strong>Diagnostic & maintenance :</strong> identification rapide des pannes matérielles (hardware) et logicielles pour particuliers et entreprises.",
+            "<strong>Déploiement d'environnements :</strong> installation et configuration complète de systèmes d'exploitation (Windows, distributions Linux).",
+            "<strong>Support & relation client :</strong> écoute des besoins techniques, conseils personnalisés et gestion des stocks de pièces détachées."
+          ],
+          tags: ["Windows 10", "Linux", "Dépannage Hardware", "Réseaux"]
+        }
+      ],
+
+      projects: [
+        {
+          title: "Écosystème React & Applications Web",
+          link: "https://github.com/Zukimojito/Projet-react",
+          linkLabel: "github.com/Zukimojito/Projet-react",
+          badge: null,
+          description: "Développement d'une suite de Single Page Applications (SPA) modulaires : Blog interactif, galerie d'images avec filtrage instantané et carrousels responsifs.",
+          bullets: [
+            "Gestion d'état global avec <strong>Redux Toolkit</strong> et l'API <strong>Context</strong>.",
+            "Routage déclaratif dynamique avec <strong>React Router</strong> et hooks personnalisés."
+          ],
+          tags: ["React.js", "JavaScript (ES6+)", "Redux", "Hooks", "REST API"]
+        },
+        {
+          title: "Swallowed Star — Jeu Vidéo 2D (Python)",
+          link: null,
+          linkLabel: null,
+          badge: "Projet Personnel",
+          description: "Conception complète d'un jeu vidéo d'action 2D avec programmation orientée objet (POO).",
+          bullets: [
+            "Boucle de gameplay temps réel cadencée à 60 FPS avec gestion fine des états du jeu.",
+            "Calcul vectoriel des collisions polygonales (sprites) et spatialisation sonore avec <code>pygame.mixer</code>."
+          ],
+          tags: ["Python", "Pygame", "POO", "Game Loop"]
+        },
+        {
+          title: "AriseSquad — Jeu 3D & Game Design (Unity)",
+          link: null,
+          linkLabel: null,
+          badge: "Projet Annuel ESGI",
+          description: "Création en équipe d'un prototype de jeu 3D : modélisation sous Blender, programmation des mécaniques de jeu en C# et gestion de projet sous méthodologie Agile / diagramme de Gantt.",
+          bullets: [],
+          tags: ["Unity 3D", "C#", "Blender 3D", "Agile / Scrum"]
+        }
+      ],
+
+      education: [
+        {
+          degree: "Cycle Master — Architecte Logiciel et Développeur d’Application",
+          school: "ETNA (École des Technologies Numériques Avancées) • Ivry-sur-Seine",
+          date: "2022 – 2024",
+          detail: "Niveau 7 (Bac+5). Architectures microservices, sécurité applicative, patterns logiciels, CI/CD, méthodologies agiles."
+        },
+        {
+          degree: "Bachelor — Ingénierie de la 3D et des Jeux Vidéo",
+          school: "ESGI (École Supérieure de Génie Informatique) • Paris",
+          date: "2019 – 2020",
+          detail: "Niveau 6 (Bac+3). Programmation graphique en C#, mathématiques 3D, modélisation Blender, moteurs temps réel."
+        },
+        {
+          degree: "BTS Systèmes Numériques — Option Informatique & Réseaux",
+          school: "Lycée Le Corbusier • Aubervilliers",
+          date: "2017 – 2019",
+          detail: "Niveau 5 (Bac+2). Programmation C/C++, administration systèmes Linux/Windows, architecture réseaux TCP/IP."
+        }
+      ],
+
+      skills: [
+        {
+          category: "Langages",
+          items: [
+            { name: "JavaScript (ES6+)", highlight: true },
+            { name: "TypeScript", highlight: true },
+            { name: "Python", highlight: true },
+            { name: "HTML5 / CSS3", highlight: false },
+            { name: "C#", highlight: false },
+            { name: "C / C++", highlight: false },
+            { name: "PHP", highlight: false },
+            { name: "SQL", highlight: false },
+            { name: "Bash / Shell", highlight: false }
+          ]
+        },
+        {
+          category: "Frameworks & Bibliothèques",
+          items: [
+            { name: "React.js", highlight: true },
+            { name: "Node.js", highlight: true },
+            { name: "Redux / Context", highlight: false },
+            { name: "Express", highlight: false },
+            { name: "Laravel", highlight: false },
+            { name: "Qt Creator", highlight: false },
+            { name: "Bootstrap", highlight: false },
+            { name: "Pygame", highlight: false }
+          ]
+        },
+        {
+          category: "Bases de Données & Cloud",
+          items: [
+            { name: "MySQL" },
+            { name: "PostgreSQL" },
+            { name: "Firebase" },
+            { name: "phpMyAdmin" },
+            { name: "REST APIs" }
+          ]
+        },
+        {
+          category: "Outils & Environnements",
+          items: [
+            { name: "Git & GitHub" },
+            { name: "Linux / Debian / Ubuntu" },
+            { name: "VS Code" },
+            { name: "Windows" },
+            { name: "Docker (notions)" },
+            { name: "Wamp / XAMPP" }
+          ]
+        },
+        {
+          category: "3D & Graphisme",
+          items: [
+            { name: "Unity 3D" },
+            { name: "Blender" },
+            { name: "Photoshop" }
+          ]
+        }
+      ],
+
+      languages: [
+        { name: "Chinois", level: "Langue maternelle", percent: 100 },
+        { name: "Français", level: "Bilingue / Courant", percent: 100 },
+        { name: "Anglais", level: "Technique & Professionnel", percent: 75 }
+      ],
+
+      softSkills: [
+        { title: "Rigueur architecturale", desc: "Clean Code, maintenabilité, modularité" },
+        { title: "Sensibilité UI/UX", desc: "souci du détail graphique et ergonomie" },
+        { title: "Autonomie & curiosité", desc: "veille technologique active" },
+        { title: "Résolution de problèmes", desc: "logique algorithmique affinée" },
+        { title: "Travail collaboratif", desc: "culture Agile / Scrum" }
+      ],
+
+      hobbies: [
+        { icon: "🏸", title: "Sports", desc: "Badminton, Jogging, Natation" },
+        { icon: "🎮", title: "Jeux Vidéo", desc: "RPG, Stratégie, FPS, Game Design" },
+        { icon: "📖", title: "Culture & Lecture", desc: "Mangas, Science-Fiction, Roman" }
+      ]
+    };
+
+    /**
+     * MOTEUR DE GÉNÉRATION HTML SÉMANTIQUE & CONFORME ATS
+     */
+    function renderCV(data) {
+      const container = document.getElementById('cv-content');
+
+      // Génération des tags
+      const renderTags = (tags) => tags.map(tag => `<span class="tag">${tag}</span>`).join('');
+
+      // 1. En-tête / Header
+      const headerHTML = `
+        <header class="cv-header">
+          <div class="header-photo-wrapper">
+            <img src="${data.profile.photo}" alt="Photo de ${data.profile.name}" class="header-photo" onerror="this.src='${data.profile.photoFallback}'; this.onerror=null;" />
+          </div>
+
+          <div class="header-main">
+            <div class="header-title-group">
+              <h1 class="candidate-name">${data.profile.name}</h1>
+              <h2 class="candidate-role">${data.profile.role}</h2>
+            </div>
+
+            <p class="candidate-tagline">${data.profile.tagline}</p>
+
+            <address class="contact-grid">
+              <div class="contact-item">
+                <svg class="contact-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                <a href="${data.contact.phoneLink}" class="contact-link">${data.contact.phone}</a>
+              </div>
+
+              <div class="contact-item">
+                <svg class="contact-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <a href="mailto:${data.contact.email}" class="contact-link" id="email-text">${data.contact.email}</a>
+              </div>
+
+              <div class="contact-item">
+                <svg class="contact-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>${data.contact.city}</span>
+              </div>
+
+              <div class="contact-item">
+                <svg class="contact-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <a href="${data.contact.githubUrl}" target="_blank" rel="noopener noreferrer" class="contact-link">${data.contact.githubLabel}</a>
+              </div>
+
+              <div class="contact-item">
+                <svg class="contact-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+                <a href="${data.contact.portfolioUrl}" target="_blank" rel="noopener noreferrer" class="contact-link">${data.contact.portfolioLabel}</a>
+              </div>
+            </address>
+          </div>
+        </header>
+      `;
+
+      // 2. Profil Professionnel (Résumé ATS)
+      const summaryHTML = `
+        <section class="cv-section section-summary" aria-labelledby="sec-profile">
+          <h2 id="sec-profile" class="section-title">
+            <span class="section-icon">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </span>
+            Profil Professionnel
+          </h2>
+          <p class="summary-text">${data.summary}</p>
+        </section>
+      `;
+
+      // 3. Expériences
+      const experiencesHTML = data.experiences.map(exp => `
+        <article class="timeline-item">
+          <div class="timeline-header">
+            <div>
+              <h3 class="entry-title">${exp.title}</h3>
+              <div class="entry-company">${exp.company}</div>
+            </div>
+            <time class="entry-date">${exp.date}</time>
+          </div>
+          <ul class="entry-bullets">
+            ${exp.bullets.map(b => `<li>${b}</li>`).join('')}
+          </ul>
+          <div class="tag-list">
+            ${renderTags(exp.tags)}
+          </div>
+        </article>
+      `).join('');
+
+      // 4. Projets
+      const projectsHTML = data.projects.map(proj => `
+        <article class="project-card">
+          <div class="project-header">
+            <h3 class="entry-title">${proj.title}</h3>
+            ${proj.link ? `
+              <a href="${proj.link}" target="_blank" rel="noopener noreferrer" class="project-link" title="Consulter sur GitHub">
+                <span>${proj.linkLabel}</span>
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            ` : ''}
+            ${proj.badge ? `<span class="entry-badge">${proj.badge}</span>` : ''}
+          </div>
+          <p class="project-description">${proj.description}</p>
+          ${proj.bullets && proj.bullets.length > 0 ? `
+            <ul class="entry-bullets">
+              ${proj.bullets.map(b => `<li>${b}</li>`).join('')}
+            </ul>
+          ` : ''}
+          <div class="tag-list">
+            ${renderTags(proj.tags)}
+          </div>
+        </article>
+      `).join('');
+
+      // 5. Formations
+      const educationHTML = data.education.map(edu => `
+        <article class="timeline-item">
+          <div class="timeline-header">
+            <div>
+              <h3 class="entry-title">${edu.degree}</h3>
+              <div class="entry-company">${edu.school}</div>
+            </div>
+            <time class="entry-date">${edu.date}</time>
+          </div>
+          <p class="entry-detail">${edu.detail}</p>
+        </article>
+      `).join('');
+
+      // 6. Compétences
+      const skillsHTML = data.skills.map(cat => `
+        <div class="skill-category">
+          <h3 class="skill-heading">${cat.category}</h3>
+          <div class="tag-list">
+            ${cat.items.map(item => `
+              <span class="tag ${item.highlight ? 'tag-highlight' : ''}">${item.name}</span>
+            `).join('')}
+          </div>
+        </div>
+      `).join('');
+
+      // 7. Langues
+      const languagesHTML = data.languages.map(lang => `
+        <div class="language-item">
+          <div class="language-header">
+            <span class="language-name">${lang.name}</span>
+            <span class="language-level">${lang.level}</span>
+          </div>
+          <div class="progress-bar"><div class="progress-fill" style="width: ${lang.percent}%;"></div></div>
+        </div>
+      `).join('');
+
+      // 8. Atouts / Soft skills
+      const softSkillsHTML = data.softSkills.map(s => `
+        <li><strong>${s.title} :</strong> ${s.desc}</li>
+      `).join('');
+
+      // 9. Hobbies
+      const hobbiesHTML = data.hobbies.map(h => `
+        <div class="hobby-chip">
+          <span class="hobby-bullet">${h.icon}</span>
+          <span><strong>${h.title} :</strong> ${h.desc}</span>
+        </div>
+      `).join('');
+
+      // Assemblage complet
+      container.innerHTML = `
+        ${headerHTML}
+        ${summaryHTML}
+        <div class="cv-body-grid">
+          <div class="cv-column-main">
+            <section class="cv-section" aria-labelledby="sec-experience">
+              <h2 id="sec-experience" class="section-title">
+                <span class="section-icon">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                  </svg>
+                </span>
+                Expériences Professionnelles
+              </h2>
+              <div class="timeline">
+                ${experiencesHTML}
+              </div>
+            </section>
+
+            <section class="cv-section" aria-labelledby="sec-projects">
+              <h2 id="sec-projects" class="section-title">
+                <span class="section-icon">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                </span>
+                Projets Techniques Réalisés
+              </h2>
+              <div class="projects-grid">
+                ${projectsHTML}
+              </div>
+            </section>
+
+            <section class="cv-section" aria-labelledby="sec-education">
+              <h2 id="sec-education" class="section-title">
+                <span class="section-icon">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                </span>
+                Formations & Diplômes
+              </h2>
+              <div class="timeline">
+                ${educationHTML}
+              </div>
+            </section>
+          </div>
+
+          <aside class="cv-column-side" aria-label="Compétences et Informations complémentaires">
+            <section class="cv-section" aria-labelledby="sec-skills">
+              <h2 id="sec-skills" class="section-title">
+                <span class="section-icon">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </span>
+                Compétences
+              </h2>
+              ${skillsHTML}
+            </section>
+
+            <section class="cv-section" aria-labelledby="sec-languages">
+              <h2 id="sec-languages" class="section-title">
+                <span class="section-icon">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M2 12h20"></path>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                  </svg>
+                </span>
+                Langues
+              </h2>
+              <div class="language-list">
+                ${languagesHTML}
+              </div>
+            </section>
+
+            <section class="cv-section" aria-labelledby="sec-softskills">
+              <h2 id="sec-softskills" class="section-title">
+                <span class="section-icon">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  </svg>
+                </span>
+                Atouts Clés
+              </h2>
+              <ul class="soft-skills-list">
+                ${softSkillsHTML}
+              </ul>
+            </section>
+
+            <section class="cv-section" aria-labelledby="sec-hobbies">
+              <h2 id="sec-hobbies" class="section-title">
+                <span class="section-icon">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                  </svg>
+                </span>
+                Centres d'intérêt
+              </h2>
+              <div class="hobby-grid">
+                ${hobbiesHTML}
+              </div>
+            </section>
+          </aside>
+        </div>
+
+        <footer class="cv-footer">
+          <span>CV ${data.profile.name} • ${data.profile.role} • ${data.profile.location}</span>
+          <span>${data.profile.availability}</span>
+        </footer>
+      `;
+    }
+
+    // Exécution du rendu immédiat
+    renderCV(cvData);
+
+    // Interaction du bouton "Copier email"
     document.getElementById('btn-copy-email').addEventListener('click', function() {
-      const email = 'lin98j@gmail.com';
+      const email = cvData.contact.email;
       navigator.clipboard.writeText(email).then(() => {
         const btnText = this.querySelector('.btn-text');
         const originalText = btnText.textContent;
